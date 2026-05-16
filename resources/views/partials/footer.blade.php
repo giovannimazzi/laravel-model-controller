@@ -1,0 +1,4 @@
+<footer>
+    <hr/>
+    <h2>FOOTER</h2>
+</footer>
