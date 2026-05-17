@@ -34,15 +34,17 @@
 
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
-<body class="min-vh-100 d-flex flex-column">
+    <body>
 
-    @include('partials.header')
+        <div class="min-vh-100 d-flex flex-column">
 
-    <main class="flex-grow-1">
-        @yield('content')
-    </main>
+            @include('partials.header')
 
-    @include('partials.footer')
+            <main class="flex-grow-1 container">
+                @yield('content')
+            </main>
 
-</body>
+        </div>
+    
+    </body>
 </html>
