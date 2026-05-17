@@ -10,9 +10,9 @@
         </div>
         <div class="card-footer bg-primary bg-opacity-25 text-primary">
             @php
-            $fullStars = $movie->starVote()[0];
-            $halfStars = $movie->starVote()[1];
-            $emptyStars = $movie->starVote()[2];
+                $fullStars = $movie->starVote()[0];
+                $halfStars = $movie->starVote()[1];
+                $emptyStars = $movie->starVote()[2];
             @endphp
             @for($i=0; $i<$fullStars; $i++)
                 <i class="bi bi-star-fill"></i>
