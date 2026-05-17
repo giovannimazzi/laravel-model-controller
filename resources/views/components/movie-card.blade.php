@@ -1,9 +1,11 @@
 <div>
-    <div class="card mb-3" style="max-width: 18rem;">
+    <div class="card mb-3" style="max-width: 28rem;">
         <div class="card-body">
             <h5 class="card-title">Success card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+            <h6 class="card-text text-secondary mb-3">(subtitle)</h6>
+            <p class="card-text text-secondary mb-4">text</p>
+            <p class="card-text text-secondary">date</p>
         </div>
-        <div class="card-footer bg-primary bg-opacity-25 text-primary">Footer</div>
+        <div class="card-footer bg-primary bg-opacity-25 text-primary">Vote</div>
     </div>
 </div>
